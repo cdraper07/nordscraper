@@ -34,8 +34,8 @@ axios.get(url)
 		console.log(precio);
 		
 		const msg = {
-  			to: 'collindraper07@gmail.com',
-  			from: 'collindraper07@gmail.com',
+  			to: '###email###',
+  			from: '###email###',
   			subject: 'Nordstrom Rack Daily Deals',
   			html: '<a href="'+linki[0]+'">'+nombre[0]+', '+precio[0]+'</a>'+
   				'<br>'+
