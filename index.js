@@ -3,6 +3,8 @@ const cheerio = require('cheerio');
 const sgMail = require('@sendgrid/mail');
 sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
+
+
 url = 'https://www.nordstromrack.com/clearance/Men?sort=featured';
 
 sizes = ["9","9.5","Waist 30","Waist 29","S","M"];
