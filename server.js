@@ -5,7 +5,7 @@ const app = express();
 
 var db;
 
-MongoClient.connect('your-mongodb-url', (err, client) => {
+MongoClient.connect('mongodb+srv://<username>:<password>@nordscraper-62kur.mongodb.net/test', (err, client) => {
   if (err) return console.log(err)
   db = client.db('database-name') // whatever your database name is
   app.listen(3000, () => {
